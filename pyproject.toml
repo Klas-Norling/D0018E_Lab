@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+
+[project]
+name = "d0018e_backend"
+description = "A short description of the package."
+authors = [
+    "Klas Norling <klasaman99@hotmail.com>",
+]
+requires-python = ">=3.7"
+version = "0.0.1"
+classifiers = [
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+]
+
+dependencies = ["mysql-connector-python"]
+
+[tool.poetry]
+packages = [
+    { include = "userQueries.py", from = "src/database" }
+]
