@@ -1,5 +1,5 @@
 body {
-    background-color: #96b5ee;
+    background-color: #efe4d1;
     font-family: "Roboto", sans-serif;
   }
   
@@ -52,7 +52,7 @@ body {
     height: 35px;
     margin-top: 20px;
     border: none;
-    background-color: #49c1a2;
+    background-color: #7c2c0c;
     color: white;
     font-size: 18px;
   }
@@ -63,11 +63,38 @@ body {
   }
   .para-2 {
     text-align: center;
-    color: white;
+    color: #7c2c0c;
     font-size: 15px;
     margin-top: -10px;
   }
   .para-2 a {
-    color: #49c1a2;
+    color: #0509ca;
+  }
+
+  .btn_main {
+    width: 100%;
+    float: left;
+    padding-top: 50px;
   }
   
+  .contact_bt {
+    width: 170px;
+    float: left;
+  }
+
+  .contact_bt a {
+    width: 100%;
+    float: left;
+    font-size: 18px;
+    color: #7c2c0c;
+    background-color: transparent;
+    border: 1px solid #b48569;
+    padding: 8px 5px;
+    text-align: center;
+    font-weight: 500;
+  }
+
+  .contact_bt a:hover {
+    color: #ffffff;
+    background-color: #7c2c0c;
+  }
